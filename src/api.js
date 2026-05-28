@@ -1,4 +1,4 @@
-import { cryptoAssets } from './components/layout/data'
+import { cryptoAssets } from './data'
 import { sryptoAssets, cryptoData } from './data'
 
 export function fakeFetchCrypto() {
