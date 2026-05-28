@@ -1,0 +1,18 @@
+import { cryptoAssets } from './components/layout/data'
+import { sryptoAssets, cryptoData } from './data'
+
+export function fakeFetchCrypto() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(cryptoData)
+        }, 2000)
+    })
+}
+
+export function FetchCrypto() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(cryptoAssets)
+        }, 2000)
+    })
+}
