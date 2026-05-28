@@ -8,7 +8,7 @@ export function fakeFetchCrypto() {
     })
 }
 
-export function FetchCrypto() {
+export function FetchAssets() {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve(cryptoAssets)
