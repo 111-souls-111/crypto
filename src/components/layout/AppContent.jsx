@@ -17,3 +17,4 @@ export default function AppContent() {
         <Layout.Content style={contentStyle}>Content</Layout.Content>
    )
 }
+

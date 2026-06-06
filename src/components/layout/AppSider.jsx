@@ -6,7 +6,7 @@ import CryptoContext from '../../context/crypto-context';
 
 const siderStyle = {
     padding: '1rem',
-    background: '#f5f5f5',
+    // background: '#f5f5f5',
     height: '100vh',
     overflow: 'auto'
 };
@@ -18,7 +18,7 @@ export default function AppSider() {
 
     return (
         <Layout.Sider     
-            width="25%"
+            width="30%"
             breakpoint="lg"
             collapsedWidth="0"
             onBreakpoint={(broken) => console.log(broken)}
